@@ -1,0 +1,278 @@
+/*
+=============================
+General Theme Styles
+=============================
+*/
+#topnotice .btn {
+  float: right;
+  display: block;
+  background: #fff;
+  background: rgba(255,255,255,.25);
+  color: #fff;
+  padding: 3px 14px;
+  width: 115px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.lazyload {
+  transition: opacity .15s;
+  opacity: 0;
+}
+
+.lazyload.is-loaded {
+  opacity: 1;
+}
+.top-header:before {
+  content: " ";
+  display: table;}
+.page-content, .entry-content, .entry-summary {
+    margin: 2em 0 0;
+}
+.top-header:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+.top-header{    max-width: 75rem;
+  margin-right: auto;
+  margin-left: auto;}
+.top-header .search-form{
+max-width: 250px;
+}
+.lu-widget-area{
+  float: right;
+  margin-top: 15px;
+  text-align: right;
+}
+
+
+
+.lu-site-title{
+    float: left;
+    padding: 14px 0;
+
+}
+
+
+.lu-site-title > a img {
+  max-width:150px;
+  max-height: 100%;
+}
+
+/*
+=============================
+ Theme Front End Notices Ambient Press
+=============================
+*/
+#topnotice {
+    width: 100%;
+    display: block;
+    min-height: 48px;
+}
+
+#topnotice a.link {
+    display: block;
+    color:$white;
+    text-decoration: none!important;
+    padding: 12px 0;
+    font-size: 15px;
+    font-weight: 300;
+    transition: none;
+    background: #456ede;
+    background: -webkit-linear-gradient(left,#7438E8,#456EDE,#07C4D3);
+    background: linear-gradient(to right,#7438E8,#456EDE,#07C4D3);
+    background-repeat: repeat-x;
+}
+
+/*
+=============================
+ Theme Icon Ambient Press
+=============================
+*/
+
+@font-face {
+    font-family: 'lumenambient';
+    src: url('../font/lumenambient.eot?31367176');
+    src: url('../font/lumenambient.eot?31367176#iefix') format('embedded-opentype'),
+         url('../font/lumenambient.woff2?31367176') format('woff2'),
+         url('../font/lumenambient.woff?31367176') format('woff'),
+         url('../font/lumenambient.ttf?31367176') format('truetype'),
+         url('../font/lumenambient.svg?31367176#lumenambient') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* Chrome hack   : SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+  /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+  /*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'lumenambient';
+      src: url('../font/lumenambient.svg?31367176#lumenambient') format('svg');
+    }
+  }
+  */
+   
+   [class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "lumenambient";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+   
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+   
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+   
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+   
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+   
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+    /* Uncomment for 3D effect */
+     text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); 
+  }
+   
+  .icon-mail:before { content: '\e800'; } /* '' */
+  .icon-heart:before { content: '\e801'; } /* '' */
+  .icon-heart-empty:before { content: '\e802'; } /* '' */
+  .icon-camera:before { content: '\e803'; } /* '' */
+  .icon-comment:before { content: '\e804'; } /* '' */
+  .icon-user:before { content: '\e805'; } /* '' */
+  .icon-tags:before { content: '\e806'; } /* '' */
+  .icon-tag:before { content: '\e807'; } /* '' */
+  .icon-home:before { content: '\e808'; } /* '' */
+  .icon-basket:before { content: '\e809'; } /* '' */
+  .icon-twitter:before { content: '\e80a'; } /* '' */
+  .icon-rss:before { content: '\e80b'; } /* '' */
+  .icon-vk:before { content: '\e80c'; } /* '' */
+  .icon-linkedin:before { content: '\e80d'; } /* '' */
+  .icon-youtube:before { content: '\e80e'; } /* '' */
+  .icon-facebook:before { content: '\e80f'; } /* '' */
+  .icon-gmail:before { content: '\e810'; } /* '' */
+  .icon-paypal:before { content: '\e811'; } /* '' */
+  .icon-folder:before { content: '\e812'; } /* '' */
+  .icon-gplus:before { content: '\f0d5'; } /* '' */
+  .icon-mail-alt:before { content: '\f0e0'; } /* '' */
+  .icon-chat-empty:before { content: '\f0e6'; } /* '' */
+  .icon-male:before { content: '\f183'; } /* '' */
+  .icon-box:before { content: '\f187'; } /* '' */
+  .icon-google:before { content: '\f1a0'; } /* '' */
+  .icon-facebook-rect:before { content: '\f301'; } /* '' */
+  .icon-twitter-1:before { content: '\f302'; } /* '' */
+  .icon-googleplus-rect:before { content: '\f309'; } /* '' */
+  .icon-instagram-filled:before { content: '\f31f'; } /* '' */
+  
+  /*
+  =============================
+  BLOG POST STYLES
+  =============================
+  */
+ .author, .cat-links:before, .tags-links:before, .comments-link:before{/*, .nav-previous .prev:before, .nav-next .next:before */
+    opacity: .7;
+}
+.author, .cat-links:before, .tags-links:before, .comments-link:before {
+     //, .nav-previous .prev:before, .nav-next .next:before, .generate-back-to-top:before
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    speak: none;
+}
+
+.cat-links:before {
+    content: "\e812";
+}
+
+.tags-links::before{
+    content: "\e806";
+}
+
+.comments-link::before{
+    content: "\e804";
+}
+
+.author::before{
+    content: "\e805";
+}
+
+.author,.cat-links:before, .tags-links:before, .comments-link:before {
+    font-family: "lumenambient";
+    text-decoration: inherit;
+    position: relative;
+    margin-right: .6em;
+    width: 13px;
+    text-align: center;
+    display: inline-block;
+    /*.menu-toggle:before, .search-item a:before, .dropdown-menu-toggle:before, , .nav-previous .prev:before, .nav-next .next:before*/
+}
+
+  .cat-links, .tags-links, .comments-link {
+    display: block;
+}
+  $responsive-blog-post-highlight: $primary-color;
+  $responsive-blog-post-vert-seperate: 4rem;
+  
+  .responsive-blog-post {
+    margin-bottom: $responsive-blog-post-vert-seperate;
+  
+    p {
+      color: $dark-gray;
+    }
+  
+    .button {
+      padding: 0.85rem 3rem;
+      background: $responsive-blog-post-highlight;
+  
+      &:hover {
+        background-color: darken($responsive-blog-post-highlight, 5%);
+        transition: color 0.3s ease-in;
+      }
+    }
+  
+    .individual-post {
+      margin-bottom: $responsive-blog-post-vert-seperate;
+    }
+  
+    h4 {
+      margin-bottom: 0;
+  
+      &:hover {
+        text-decoration: underline;
+        transition: color 0.3s ease-in;
+      }
+  
+      @media screen and (max-width: 39.9375em) {
+        font-size: 1.5rem;
+      }
+    }
+  
+    img {
+      margin-bottom: 1.5rem;
+    }
+  
+    .date {
+      font-size: 0.8rem;
+      color: $dark-gray;
+    }
+  }
+  
