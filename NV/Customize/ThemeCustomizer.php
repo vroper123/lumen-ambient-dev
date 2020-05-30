@@ -48,6 +48,21 @@ class ThemeCustomizer {
 		$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
 		$wp_customize->get_setting( 'background_color' )->transport = 'postMessage';
 
+		/**
+		 * Add our Header & Navigation Panel
+		 */
+		$wp_customize->add_panel( 'header_naviation_panel',
+		array(
+			'title' => __( 'Header & Navigation' ),
+			'description' => esc_html__( 'Adjust your Header and Navigation sections.' ), // Include html tags such as 
+
+			'priority' => 160, // Not typically needed. Default is 160
+			'capability' => 'edit_theme_options', // Not typically needed. Default is edit_theme_options
+			'theme_supports' => '', // Rarely needed
+			'active_callback' => '', // Rarely needed
+		)
+		);
+
 		/*$wp_customize->add_panel();
 		$wp_customize->get_panel();
 		$wp_customize->remove_panel();
@@ -102,7 +117,7 @@ class ThemeCustomizer {
 			Core::i()->get_js_url( 'theme-customizer.min.js' ), //Define its JS file
 			[ 'jquery', 'customize-preview' ], //Define dependencies
 			null, //Define a version (optional)
-			true //Specify whether to put in footer (leave this true)
+			true 
 		);
 	}
 	

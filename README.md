@@ -1,6 +1,5 @@
 # Lumen Ambient Wordpress Theme
-**Contributors:** Vincent Roper 
-**Donate link:** http://bsquadt.com     
+**Contributors:** Vincent Roper    
 **Author URI:** http://bsquadt.com
 **Tags:** Lumenframework, php5.6    
 **Version:** alpha 1.4  
