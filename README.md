@@ -11,7 +11,7 @@
 **Text Domain:** lumen-ambient  
 **License:** GPL2+ & MIT  
 
-Lumen Ambient is an open-source, rapid-development theme & plugin framework for WordPress, built on Zurb Foundation 6 and PHP 5.6+. Work fast. Be awesome.
+Very Lightweigt Wordpress Theme built for customization and speed on Foundation 6 CSS framework
 
 ## Description
 
