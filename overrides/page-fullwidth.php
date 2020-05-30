@@ -10,7 +10,7 @@ use NV\Theme\Utilities\Theme;
 get_header();
 Theme::output_file_marker( __FILE__ );
  ?>
-	<div id="container" class="row expanded">
+	<div id="lumen-main" class="row expanded">
 		<div id="content" class="lu-full"  >
 		
 			<?php echo lumen_options('code_3');?>
