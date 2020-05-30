@@ -2,11 +2,11 @@
 **Contributors:** Vincent Roper
 **Donate link:** http://nouveauframework.org/  
 **Author URI:** http://nouveauframework.org/  
-**Tags:** framework, php5.6  
+**Tags:** Lumenframework, php5.6  
 **Version:** 0.14  
 **Foundation version:** 6.5.1  
 **Requires at least:** 4.6  
-**Tested up to:** 
+**Tested up to:** 5.4
 **Stable tag:** 
 **Text Domain:** lumen-ambient  
 **License:** GPL2+ & MIT  
