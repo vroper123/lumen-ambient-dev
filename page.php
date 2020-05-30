@@ -18,10 +18,7 @@ Theme::output_file_marker( __FILE__ );
  ?>
 	<div id="container" class="row">
 		<div id="content" class=" large-12 columns "  >
-			
-
 			<?php Theme::loop( 'parts/article-page', 'parts/article-empty' ) ?>
-			
 			<?php wp_link_pages(); ?>
 		</div>
         
