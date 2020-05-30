@@ -1,13 +1,13 @@
-# NOUVEAU Starter Theme
-**Contributors:** Veraxus  
+# Lumen Ambient Wordpress Theme
+**Contributors:** Vincent Roper
 **Donate link:** http://nouveauframework.org/  
 **Author URI:** http://nouveauframework.org/  
 **Tags:** framework, php5.6  
 **Version:** 0.14  
-**Foundation version:** 6.3.1  
+**Foundation version:** 6.5.1  
 **Requires at least:** 4.6  
-**Tested up to:** 4.7  
-**Stable tag:** 0.14  
+**Tested up to:** 
+**Stable tag:** 
 **Text Domain:** lumen-ambient  
 **License:** GPL2+ & MIT  
 
